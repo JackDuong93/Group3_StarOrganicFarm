@@ -25,112 +25,132 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="container-fluid mt-3 header-top">
-                <div class="row">
-                    <div class="col-sm-4 ">
-                    Get free shipping – Free 30 day money back guarantee
-                    </div>
-                    <div class="col-sm-2 ">
-                    Store Locations
-                    </div>
-                    <div class="col-sm-2 ">
-                    Track your orders
-                    </div>
-                    <div class="col-sm-2 ">
-                    Hotline: 0123456789
-                    </div>
-                    <div class="col-sm-2 ">
-                    Quality Guarantee Of Products
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="container-fluid mt-3 header-mid">
-                <div class="row header-mid-row">
-                    <div class="col-sm-2  header-logo">
-                    <a class="logo" href="/index.html">
-                        <img src="/images/logo.png" alt="">
-                    </a>
-                    </div>
-                    <div class="col-sm-7  menu-list ">
-                        <ul>
-                            <li>
-                                <a href="index.html">HOME</a>
-                            </li>
-                            <li>
-                                <a href="categories.html">CATEGORIES</a>
-                            </li>
-                            <li>
-                                <a href="sign_in.html">SIGN IN</a>
-                            </li>
-                            <li>
-                                <a href="about.html">ABOUT US</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">CONTACT US</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3  header-info ">
-                        <a href="/cart.html" class="cart">
-                            <i class="fa-solid fa-cart-shopping">
-                                <span>0</span>
-                            </i>
-                        </a>
-                        <a href="/sign_in.html" class="account">
-                            <i class="fa-light fa-user">
-                            </i>
-                        </a>
- 
-                        <div class="dropdown">
-                                <button onclick="myFunction()" class="menu-bar dropbtn">
-                                    <i class="fa-solid fa-bars"></i>
-                                </button>
-                                <div id="myDropdown" class="dropdown-content">
-                                    <ul>
-                                        <li>
-                                            <a href="index.html">HOME</a>
-                                        </li>
-                                        <li>
-                                            <a href="categories.html">CATEGORIES</a>
-                                        </li>
-                                        <li>
-                                            <a href="sign_in.html">SIGN IN</a>
-                                        </li>
-                                        <li>
-                                            <a href="about.html">ABOUT US</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">CONTACT US</a>
-                                        </li>
-                                    </ul>
-                                </div>
+        <div class="nav-bar" id="nav">
+            <div class="container">
+                <div class="container-fluid mt-3 header-top">
+                    <div class="row">
+                        <div class="col-sm-4 ">
+                        Get free shipping – Free 30 day money back guarantee
+                        </div>
+                        <div class="col-sm-2 ">
+                        Store Locations
+                        </div>
+                        <div class="col-sm-2 ">
+                        Track your orders
+                        </div>
+                        <div class="col-sm-2 ">
+                        Hotline: 0123456789
+                        </div>
+                        <div class="col-sm-2 ">
+                        Quality Guarantee Of Products
                         </div>
                     </div>
                 </div>
-              </div>
-              <script>
-                function myFunction() {
-                    document.getElementById("myDropdown").classList.toggle("show");
-                }
-
-                    // Close the dropdown menu if the user clicks outside of it
-                    window.onclick = function(event) {
-                    if (!event.target.matches('.dropbtn')) {
-
-                        var dropdowns = document.getElementsByClassName("dropdown-content");
-                        var i;
-                        for (i = 0; i < dropdowns.length; i++) {
-                        var openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                            openDropdown.classList.remove('show');
+            </div>
+            <div class="container">
+                <div class="container-fluid mt-3 header-mid">
+                    <div class="row header-mid-row">
+                        <div class="col-sm-2  header-logo">
+                        <a class="logo" href="/index.html">
+                            <img src="/images/logo.png" alt="">
+                        </a>
+                        </div>
+                        <div class="col-sm-7  menu-list ">
+                            <ul>
+                                <li>
+                                    <a href="index.html">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="categories.html">CATEGORIES</a>
+                                </li>
+                                <li>
+                                    <a href="sign_in.html">SIGN IN</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">ABOUT US</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3  header-info ">
+                            <a href="/cart.html" class="cart">
+                                <i class="fa-solid fa-cart-shopping">
+                                    <span>0</span>
+                                </i>
+                            </a>
+                            <a href="/sign_in.html" class="account">
+                                <i class="fa-light fa-user">
+                                </i>
+                            </a>
+     
+                            <div class="dropdown">
+                                    <button onclick="myFunction()" class="menu-bar dropbtn">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </button>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <ul>
+                                            <li>
+                                                <a href="index.html">HOME</a>
+                                            </li>
+                                            <li>
+                                                <a href="categories.html">CATEGORIES</a>
+                                            </li>
+                                            <li>
+                                                <a href="sign_in.html">SIGN IN</a>
+                                            </li>
+                                            <li>
+                                                <a href="about.html">ABOUT US</a>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">CONTACT US</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <script>
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+    
+                        // Close the dropdown menu if the user clicks outside of it
+                        window.onclick = function(event) {
+                        if (!event.target.matches('.dropbtn')) {
+    
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                            }
                         }
                         }
-                    }
-                    }
-              </script>
+                        document.addEventListener("DOMContentLoaded", function(){
+                        window.addEventListener('scroll', function() {
+                            if (window.scrollY > 50) {
+                                document.getElementById('nav').classList.add('fixed-top');
+                                // add padding top to show content behind navbar
+                                document.getElementById('nav').style.backgroundColor = "#ddd";
+                                navbar_height = document.querySelector('.navbar').offsetHeight;
+                                document.body.style.paddingTop = navbar_height + 'px';
+                               
+                            } else {
+                                document.getElementById('nav').classList.remove('fixed-top');
+                                // remove padding top from body
+                                document.getElementById('nav').style.backgroundColor = "#fff";
+                                document.body.style.paddingTop = '0';
+                            } 
+                        });
+                        }); 
+                  </script>
+            </div>
+    
         </div>
         <div class="header-bottom">
             <div class="container">
